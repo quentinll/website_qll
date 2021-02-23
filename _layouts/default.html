@@ -28,8 +28,8 @@
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
       {% if page.github.is_project_page %}
-        <a href="{{ page.github.repository_url }}" class="btn">GitHub</a>
-        <a href="{{ page.github.hal_url }}" class="btn">HAL</a>
+        <a href="{{ page.github.hal_url }}" class="btn">Paper</a>
+        <a href="{{ page.github.repository_url }}" class="btn">Code</a>
       {% endif %}
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">HAL</a>
